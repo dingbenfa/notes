@@ -1,0 +1,7 @@
+查看本机被占用端口     netstat -ano
+
+查找端口pid
+
+tasklist | findstr "6769"  //端口pid
+
+taskkill /pid 6769 /f
