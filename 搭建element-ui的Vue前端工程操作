@@ -1,0 +1,20 @@
+npm install -g vue-cli 
+
+vue init webpack my-project (项目名)
+
+npm install
+
+npm run dev
+
+需要安装的环境
+（1）npm install sass-loader --save-dev
+（2）npm install gulp-sass
+（3）npm install --save axios
+（4）npm install element-ui -S
+（5）npm install vuex --save
+
+需要引入的包（element-ui）
+ (1) import ElementUI from 'element-ui'
+ (2) import 'element-ui/lib/theme-default/index.css'
+ (3) import Vue from 'vue'
+（4）使用：Vue.use(ElementUI)
